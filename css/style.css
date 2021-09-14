@@ -63,14 +63,63 @@ span {
 }
 
 p {
-  min-width: 87.2%;
   margin: 0 2.4em;
   color: #c2cbe5;
   font-weight: normal;
+  font-weight: 300;
   font-size: 1.5em;
-  line-height: 2.5em;
+  line-height: 1.8em;
 }
 
 /*PLATFORMS*/
+.platforms {
+  display: flex;
+  flex-direction: row;
+  min-width: 31.5em;
+  margin: 33px 24px 0 24px;
+}
+
+.platforms img {
+  object-fit: contain;
+  color: #5a668a;
+}
+
+.platforms :nth-child(1) {
+  min-width: 5.6em;
+}
+
+.platforms :nth-child(2) {
+  min-width: 4.5em;
+}
+
+.platforms :nth-child(3) {
+  min-width: 7.3em;
+}
+
+.platforms :nth-child(4) {
+  min-width: 7.7em;
+}
 
 /*CTA*/
+
+input,
+button {
+  width: 327px;
+  height: 46px;
+  border-radius: 28px;
+  border: none;
+}
+
+input {
+  background-color: #5a668a;
+  margin-top: 48px;
+}
+
+button {
+  background-color: #54e6af;
+  margin-top: 16px;
+  margin-bottom: 94px;
+  color: #121725;
+  font-size: 14px;
+  font-weight: 700;
+}
