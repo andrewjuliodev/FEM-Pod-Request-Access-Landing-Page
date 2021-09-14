@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap");
+
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+/*WIREFRAMES*/
+.frame {
+  border: 1px dotted red;
+}
+
+/*BODY*/
+body {
+  margin: 0 auto;
+  font-family: "Chivo", sans-serif;
+  font-size: 62.5%; /* This way for font-size 1em == 10px thus 1px == 0.1em */
+}
+
+.container {
+  font-size: 100%;
+  min-width: 35em;
+  max-width: 100%;
+  background-color: #121725;
+  text-align: center;
+}
+
+/*BRAND*/
+.brand {
+  min-width: 13.485em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 6.2em 12em 5.7em 12.015em;
+}
+
+/*ABOUT*/
+h2 {
+  text-transform: uppercase;
+  color: #54e6af;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.6em;
+  line-height: 3.8em;
+}
+
+span {
+  color: #ffffff;
+}
+
+p {
+  min-width: 87.2%;
+  margin: 0 2.4em;
+  color: #c2cbe5;
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 2.5em;
+}
+
+/*PLATFORMS*/
+
+/*CTA*/
